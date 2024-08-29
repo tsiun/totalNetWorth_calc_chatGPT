@@ -1,0 +1,106 @@
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto 30px;
+}
+
+.main-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+form {
+    width: 30%;
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto 5px;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 40%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+input:hover {
+    background-color: #6ee72d;
+}
+
+#aave-debt-input:hover, #compound-debt-input:hover {
+    background-color: rgb(255, 117, 63);
+}
+
+
+.debt {
+    color:crimson;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 50%;
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #f8f8f8;
+}
+
+tfoot {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+td {
+    text-align: right;
+}
